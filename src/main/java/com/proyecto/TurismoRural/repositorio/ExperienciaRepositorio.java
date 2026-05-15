@@ -54,7 +54,7 @@ public class ExperienciaRepositorio {
     public long count() {
         return datos.size();
     }
-    
+
     // Busca experiencias cuyo nombre o ubicación contengan el texto
     public List<Experiencia> buscarPorTexto(String texto) {
         String textoBusqueda = texto.toLowerCase();
