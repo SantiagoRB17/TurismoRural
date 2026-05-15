@@ -1,0 +1,78 @@
+
+# --- Carpetas compiladas ---
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# --- Archivos de configuración de IDEs ---
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# --- Sistema operativo ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Variables de entorno y secretos ---
+.env
+.env.local
+*.secret
+
+# --- Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+HELP.md
+.claude
