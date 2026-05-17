@@ -47,7 +47,7 @@ CorsConfig {
                         // Métodos HTTP que el frontend puede usar:
                         // GET = leer datos, POST = crear, PUT = actualizar, DELETE = eliminar
                         // OPTIONS = petición previa que el navegador hace automáticamente para verificar CORS
-                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS","PATCH")
                         // Permitimos cualquier encabezado HTTP (Content-Type, Authorization, etc.)
                         .allowedHeaders("*");
             }
