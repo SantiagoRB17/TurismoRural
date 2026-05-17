@@ -137,3 +137,12 @@ Queda disponible en `http://localhost:5173`
 
 - **Nueva Reserva:** formulario con búsqueda de cliente y experiencia, validación en tiempo real, modal de confirmación con código `RSV-XXXXXX`.
 - **Clientes:** tabla paginada con buscador, estadísticas, drawer para crear/editar, y toggle de estado con confirmación.
+
+---
+
+## Autores
+
+| Nombre | GitHub |
+|--------|--------|
+| Santiago Guevara | https://github.com/GuevaraSnow |
+| Santiago Ramirez Bernal | https://github.com/SantiagoRB17 |
